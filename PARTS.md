@@ -29,6 +29,24 @@ current price/reviews on the page before buying.
 | Laser safety glasses | [TWINSWOLF OD4+ 190-450nm & 800-1100nm](https://www.amazon.es/TWINSWOLF-seguridad-protecci%C3%B3n-completa-infrarrojo/dp/B07LH3Y3LT) | **Match the wavelength band to your actual diode (650nm here) — verify the listing explicitly covers 650nm before buying**, don't assume from the title alone |
 | Enclosure w/ viewing window | [JinZeYou IP65 box, clear lid](https://www.amazon.es/Derivaci%C3%B3n-Conexiones-Electr%C3%B3nica-Impermeable-Instrumentos/dp/B0C1BXTCLM) | Clear polycarbonate lid works as a basic beam-containment window for a low-power test rig |
 
+## Small parts — Mouser.pt (exact components)
+
+The Amazon.es "assortment kit" links above work, but if you'd rather buy
+exact parts instead of a 2000-piece grab-bag, Mouser Electronics
+(mouser.pt) carries all of these as precise, in-stock components. Mouser
+sells by manufacturer part number rather than generic listings, so most
+rows below are a filtered category page — pick any part matching the
+spec in the "note" column.
+
+| Part | Mouser.pt link | Note |
+|---|---|---|
+| IRLZ44N MOSFET | [Infineon IRLZ44N — exact part](https://pt.mouser.com/ProductDetail/Infineon-IR/IRLZ44N?qs=zO0nedAqnNIAphT7g5cSVQ%3D%3D) | Direct product page. Logic-level, TO-220, drop-in replacement for the SMD AO3400 in Stage 2 — much easier to hand-solder/breadboard |
+| Gate resistor (~100–220Ω) | [220Ω through-hole resistors](https://pt.mouser.com/c/passive-components/resistors/?resistance=220+Ohms) | Any 1/4W 5% metal/carbon film part |
+| Pull-down resistor (10kΩ) | [10kΩ through-hole resistors](https://pt.mouser.com/c/passive-components/resistors/film-resistors/thick-film-resistors-through-hole/?q=10k+Ohm+Resistor) | Any 1/4W part |
+| Flyback/snubber diode | [1N4148 series](https://pt.mouser.com/c/?series=1N4148) | Standard small-signal switching diode |
+| Electrolytic capacitor (1000µF 16V, power smoothing) | [1000µF radial electrolytics](https://pt.mouser.com/c/passive-components/capacitors/aluminum-electrolytic-capacitors/aluminum-electrolytic-capacitors-radial-leaded/?q=1000uf+16v) | Radial leaded, breadboard-friendly |
+| Jumper wires (M-M) | [Male/Male jumper wires](https://pt.mouser.com/c/tools-supplies/prototyping-products/jumper-wires/?gender=Male+%2F+Male) | Mouser's own line, sold in proper qty packs |
+
 ## Optional — upgrade path
 
 | Part | Search term | Why |
